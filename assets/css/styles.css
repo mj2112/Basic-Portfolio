@@ -1,0 +1,70 @@
+body {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    background-image: url('assets/images/extra_clean_paper_@2X.png');
+}
+
+.mainheader {
+    float: left;
+    width: 50%;
+    height: 32px;
+    background-color: #ffffff;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: right;
+    padding-left: 94px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+nav {
+    float: left;
+    width: 50%;
+    height: 32px;
+    background-color: #ffffff;
+    padding-top: 25px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+}
+
+a:link {
+    color: #4aaaa5;
+}
+
+a:hover {
+    color: rgb(182, 25, 51);
+}
+
+div {
+    width: 100%;
+    height: 50px;
+    border-bottom: 5px solid #cccccc;
+}
+
+.sectionHeading {
+    color: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: right 20px;
+}
+
+section {
+    clear: both;
+    width: 960px;
+    height: 50%;
+    border: 4px solid #dddddd;
+    padding: 10px 20px 100px 20px;
+    margin: 50px auto;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.footer {
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 100%;
+    height: 60px;
+    margin-top: -50px;
+}
