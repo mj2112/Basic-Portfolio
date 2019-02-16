@@ -8,35 +8,32 @@
 </head>
 
 <body>
-    <div>
-        <header class="mainheader">
-            <h1>Michael J. Johnson</h1>
-        </header>
-        <nav>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+    <div id="left"></div>
+    <header>
+        <h1>Michael J. Johnson</h1>
+    </header>
+    <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="main">
+        <section>
+            <h2 class="sectionHeading">Contact</h2>
+            <hr>
+            <form action="send-email.php" method="post">
+                Name:
+                <input type="text" name="Full Name" size="120" maxlength="60">
+                <br> E-mail:
+                <input type="text" name="e-mail" size="120" maxlength="60">
+                <br><br> Message:
+                <br>
+                <textarea name="message" rows="20" cols="130"></textarea>
+
+            </form>
+        </section>
     </div>
-    <hr>
-
-    <section>
-        <h2 class="sectionHeading">Contact</h2>
-        <hr>
-        <form action="send-email.php" method="post">
-            Name:
-            <input type="text" name="Full Name" size="120" maxlength="60">
-            <br> E-mail:
-            <input type="text" name="e-mail" size="120" maxlength="60">
-            <br><br> Message:
-            <br>
-            <textarea name="message" rows="20" cols="130"></textarea>
-
-        </form>
-
-
-
-    </section>
     <footer class="footer">
 
     </footer>
